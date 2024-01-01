@@ -1,0 +1,12 @@
+.address {
+    font-size: 20px;
+    margin-right: 14px;
+    margin-left: 12px;
+    margin-top: 12px;
+    font-family: sans-serif;
+}
+
+.address span {
+    font-weight: bold;
+    font-size: 38px;
+}
