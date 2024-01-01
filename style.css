@@ -38,54 +38,6 @@ body {
     background-color: #555;
 }
 
-.address {
-    font-size: 20px;
-    /* background-color: white; */
-    margin-right: 14px;
-    margin-left: 12px;
-    margin-top: 12px;
-    font-family: sans-serif;
-}
-
-.address span {
-    font-weight: bold;
-    font-size: 38px;
-}
-
-.mail-text {
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-left: 30px;
-
-}
-
-.skypechat {
-    margin-left: -45px;
-    text-align: center;
-    color: #212529;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    margin-right: 50%;
-    /* Adjust margin-right to decrease the space between icon and text */
-
-}
-
-.skypechat i {
-    display: flex;
-    align-items: center;
-    margin-right: 5px;
-}
-
-/* Add this CSS to your stylesheet or within a <style> tag */
-.connect-text {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-
-}
-
 
 
 
@@ -301,18 +253,6 @@ h1 {
     padding: 20px;
 }
 
-.home-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 0px 20px;
-}
-
-.home-content p {
-    text-align: justify;
-}
 
 .image {
     max-width: 100%;
@@ -538,188 +478,12 @@ h1 {
     height: calc(100vh - 221px);
 }
 
-.form{
-    width: 70%;
-}
-
-form{
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 2vw 4vw;
-    /* width: 600px; */
-    border-radius: 10px;
-}
-
-form h3{
-    color: #555;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-form input, form textarea{
-    border: 0;
-    margin: 10px 0;
-    padding: 20px;
-    outline: none;
-    background: #f5f5f5;
-    font-size: 16px;
-}
-
-form button{
-    padding: 15px;
-    background: #ff5361;
-    color: #fff;
-    font-size: 18px;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    width: 150px;
-    margin: 20px auto 0;
-    border-radius: 30px;
-}
-
-@media all and (max-width: 768px) {
-    .contact-content{
-        height: calc(100vh - 214.5px);
-    }
-    form h3 {
-        margin-bottom: 5px;
-    }
-    form input, form textarea {
-        border: 0;
-        margin: 7px 0;
-        padding: 10px;
-        font-size: 12px;
-    }
-    form button {
-        padding: 10px;
-        font-size: 14px;        
-        margin: 5px auto;
-}
-@media all and (max-width: 480px) {
-    .contact-content{
-        height: calc(100vh - 191.5px);
-    }
-    .form{
-        width: 100%;
-    }
-    form h3 {
-        margin-bottom: 5px;
-    }
-    form input, form textarea {
-        border: 0;
-        margin: 7px 0;
-        padding: 10px;
-        font-size: 12px;
-    }
-    form button {
-        padding: 10px;
-        font-size: 14px;        
-        margin: 5px auto;
-}
 
 
-/*               Product Page                  */
-.product-content{
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(273px, 1fr));
-    grid-gap: 10px 20px;
-    margin: 20px;
-}
-.product-card {
-    box-shadow: 0 2px 7px #dfdfdf;
-    background: #212529;
-    border-radius: 10px;
-}
 
-@media all and (max-width: 1024px) {
-    .product-content{
-        grid-template-columns: repeat(auto-fill,minmax(181px, 1fr));
-    }
-}
-@media all and (max-width: 768px) {
-    .product-content{
-        grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-    }
-    .product-card h4{
-        font-size: 14px!important;
-    }
-    .product-card p{
-        font-size: 10px!important;
-    }
-}
-@media all and (max-width: 480px) {
-    .product-content{
-        grid-template-columns: repeat(auto-fill,minmax(92px, 1fr));
-        margin: 10px;
-        grid-gap: 10px;
-    }
-    .product-details{
-        padding: 0px 10px!important;
-    }
-    .product-details h4{
-        font-size: 9px!important;
-        margin: 5px 0;
-    }
-    .product-card p{
-        font-size: 7px!important;
-        line-height: 10px!important;
-    }
-}
 
-.product-tumb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    background: #f0f0f0;
-}
 
-.product-tumb img {
-    margin-bottom: 200px;
-    margin-top: 200px;
-    margin-left:200px;
-    margin-right:200px;
-    border-radius: 10px 10px 0 0;
-    width: 100%;
-}
 
-.product-details {
-    padding: 10px 30px;
-}
-
-.product-catagory {
-    display: block;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #ccc;
-    margin-bottom: 10px;
-}
-
-.product-details h4 {
-    font-size: 18px;
-    font-weight: 600;
-    display: block;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.product-details h4:hover {
-    color: #fbb72c;
-}
-
-.product-details p {
-    font-size: 15px;
-    line-height: 22px;
-    margin-bottom: 10px;
-    color: #999;
-}
-
-}
-}
 
 @media (min-width:375px) and (max-width:430px) {
    
