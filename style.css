@@ -43,7 +43,7 @@ body {
 
 .header {
     color: #fff;
-    background-color: white;
+    background-color: #e23838;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     z-index: 10;
@@ -237,7 +237,7 @@ body {
     font-weight: 800;
 }
 
-/* Home Section */
+
 h1 {
     background-color: #212529;
     color: white;
@@ -394,9 +394,9 @@ h1 {
         width: 100px;
     }
 
-    .main {
+    /* .main {
         left: 100px;
-    }
+    } */
 
     .news-card h3 {
         font-size: 14px;
@@ -420,52 +420,13 @@ h1 {
 }
 
 
-#services img {
-    width: full;
-    height: 320px;
-    display: flex;
-    justify-content: center;
-}
-
-#services h3 {
-    margin-left:-40px;
-    margin-right: 46px;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.service-card {
-    margin-left:-32px;
-    padding: 10px 15px;
-    list-style: auto;
-}
-
-.service-card>strong {
-    font-size: larger;
-}
-
-.service-card img {
-    margin: 10px 0;
-}
-
-.service-card ul {
-    padding: 10px 30px;
-}
 
 .whychoose li {
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
 
-#blog h3:first-child {
-    margin-left:-40px;
-    text-align: center;
-    font-size: 1.5rem;
-}
 
-#blog li {
-    font-weight: bold;
-}
 
 
 /******************** Contact Page *************************/
@@ -483,257 +444,5 @@ h1 {
 
 
 
-
-
-@media (min-width:375px) and (max-width:430px) {
-   
-   
-    #services img{
-        width: 212px;
-        margin-left: -30px;
-        margin-right: -60px;
-        align-items: center;
-        height: 142px;
-        display: flex;
-        justify-content: center;
-    }
-
-    #services h3 {
-        margin-left: 96px;
-        margin-right: 93px;
-        font-size:1px;
-        text-align: center;
-    }
-
-    .service-card {
-        margin-right: 93px;
-        margin-left: 39px;
-        padding: 11px 40px;
-        list-style: auto;
-    }
-
-    #blog h3:first-child {
-        margin-left: -15px;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    #blog h3:first-child {
-        margin-left: -19px;
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .skypechat {
-        margin-left: -10px;
-        text-align: center;
-        color: #212529;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        margin-right: -42%;
-    }
-   
-}
-
-
-
-@media (min-width:540px) and (max-width:1024px){
-    .skypechat {
-        margin-left: -21px;
-        text-align: center;
-        color: #212529;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        margin-right: -75%;
-    }
-}
-
-@media (width:540px) {
-    #blog h3:first-child {
-        margin-left: -13px;
-       
-    }
-}
-
-@media (width:280px){
-    .skypechat {
-        margin-left: -6px;
-        margin-right: -7%;
-    }
-
-    .address span {
-        font-weight: bold;
-        font-size: 25px;
-    }
-
-    .nav-items a {
-       
-        font-size: 7px;
-       
-    }
-}
-
-@media (width:412px) {
-    .whychoose li {
-        margin-right: 81px;
-        margin-left: 58px;
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-
-    .service-card ul {
-        padding:0;
-    }
-
-    #services img {
-      
-        margin-left: -58px;
-    }
-}
-
-@media (width:540px){
-    .whychoose li {
-        margin-left: 84px;
-        margin-right: 97px;
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
-
-    #services h3 {
-        margin-left: 12px;
-        margin-right: 10px;
-        font-size: 13px;
-        text-align: center;
-    }
-}
-
-@media (min-width:300px)and (max-width:366px){
-    
-    .skypechat {
-        margin-left: 11px;
-        text-align: center;
-        color: #212529;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        margin-right: 3%;
-    }
-    .service-card>strong {
-        margin: 2px 69px 0 271px;
-        font-size: 7px;
-    }
-    .whychoose li {
-        margin-left: 143px;
-        margin-right: 174px;
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-
-    #services h3 {
-        margin-left: 22px;
-        margin-right: 36px;
-        font-size: 7px;
-        text-align: center;
-    }
-
-    .ul-element {
-        margin-right: 139px;
-        margin-left: 122px;
-    }
-
-    #services img {
-        width: 136px;
-        margin-right: 283px;
-        margin-left: 287px;
-        height: 104px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .service-card ul {
-        margin: 0px 101px 0 265px;
-        padding: 10px 30px;
-    }
-}
-
-@media (min-width:367px) and (max-width:411px){
-    .whychoose li {
-        margin: 0px 90px 0 64px;
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-
-    .ul-element {
-        font-size: 17px;
-        margin-right: 8px;
-        margin-left: -36px;
-    }
-}
-
-@media (min-width:367px) and (max-width:374px){
-    .whychoose li {
-        margin: 0 127px 0 107px;
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-
-    #services h3 {
-        margin-left: 13px;
-        margin-right: 9px;
-        font-size: 10px;
-        text-align: center;
-    }
-
-    .ul-element {
-        font-size: 14px;
-        margin-right: 122px;
-        margin-left: 106px;
-    }
-}
-
-@media (min-width:280px) and (max-width:299px){
-    
-
-    .service-card ul {
-        font-size: 13px;
-       
-        margin-right: 178px;
-        margin-left: 225px;
-       
-    }
-
-    .whychoose li {
-        margin: 0px 237px 0 215px;
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-
-    #services h3 {
-        margin-left: 62px;
-        margin-right: 57px;
-        font-size: 7px;
-        text-align: center;
-    }
-
-    #services img {
-        margin-right: 164px;
-        margin-left: 212px;
-        width: 20p;
-        height: 108px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .service-card>strong {
-       
-        margin-right: 74px;
-        margin-left: 211px;
-        font-size: 6px;
-    }
-
-    
-}
 
 
