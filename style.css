@@ -439,6 +439,14 @@ h1 {
     height: calc(100vh - 221px);
 }
 
+.address {
+	font-size: 100% !important;
+  font-family: sans-serif;
+  padding: 18px 0px 4px 15px !important;
+}
+  
+  
+
 
 
 
